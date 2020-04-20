@@ -15,6 +15,8 @@ const timeout = (ms, result) => {
 class List2 extends Component{
     static async getInitialProps() {
         //await timeout(5000, {userName: 'Morgan'})
+
+        // 可以自己找一个数据源
         let res =  await axios.get("/api/server_search/goods/goods_search/?page=1&size=3&text__starts=&order_by=-weight_num&_time=1586847173935");
         return { data: res.data.data.data }
     }

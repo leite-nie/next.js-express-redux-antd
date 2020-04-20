@@ -33,7 +33,7 @@ app
 
 
     server.get("/", (req, res) => app.render(req, res, "/index"));
-    server.get("/test", (req, res) => app.render(req, res, "/test1"));
+    server.get("/test1", (req, res) => app.render(req, res, "/test1"));
     server.get("/list", (req, res) => app.render(req, res, "/list"));
     server.get("/list/:id",
       (req, res) => {
