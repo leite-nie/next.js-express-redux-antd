@@ -13,7 +13,7 @@ const Test = (props) => {
     console.log(props)
     return (
         <div>
-            <h2>这是test页面</h2>
+            <h2>这是test、redux持久化页面</h2>
             <div>
                 <Link href="/"><a>返回首页</a></Link>
                 <div className={"test"}>参数为：{props.router.query.type}</div>

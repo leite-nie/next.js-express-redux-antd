@@ -8,7 +8,7 @@ const Hearder = (props) =>{
             <div className="nav-box">
                 <Link href="/"><a >首页</a></Link>
                 <Link href="/list"><a >list</a></Link>
-                <Link href="/test1?type=query"><a >test</a></Link>
+                <Link href="/test1?type=query"><a >test/redux/redux-persist</a></Link>
             </div>
             <div>
                 获取props的children:
